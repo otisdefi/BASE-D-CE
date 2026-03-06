@@ -527,13 +527,13 @@
 
     try {
       // Send a tiny gas-only transaction to self (0 ETH, just gas fee)
+      // Send 0 ETH to self — just pays gas, no data field
       const txHash = await window.ethereum.request({
         method: 'eth_sendTransaction',
         params: [{
           from: walletAddress,
           to: walletAddress,
           value: '0x0',
-          data: '0x' + Date.now().toString(16).padStart(64, '0'), // unique data each roll
         }],
       });
 
