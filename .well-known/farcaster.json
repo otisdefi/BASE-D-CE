@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEzODQ5NDksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgzYTE1ZTRhNDExNkE4NTgzODJCN0QxZDA0QjhBMkExMDA1RjZGQmViIn0",
+    "payload": "eyJkb21haW4iOiJiYXNlLWQtY2UudmVyY2VsLmFwcCJ9",
+    "signature": "hZKvctjhyakWvH6VOB2HK6x1S5jNcgQ5/mNfa4VqrANAkw64i5xKvsiPDg2wHX/IEh+caXZIGkagr4tI74VjAhs="
+  },
+  "frame": {
+    "version": "1",
+    "name": "Example Frame",
+    "iconUrl": "https://base-d-ce.vercel.app/icon.png",
+    "homeUrl": "https://base-d-ce.vercel.app",
+    "imageUrl": "https://base-d-ce.vercel.app/image.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://base-d-ce.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://base-d-ce.vercel.app/api/webhook"
+  }
+}
