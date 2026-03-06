@@ -434,7 +434,7 @@
       <div class="tap-hint" id="tapHint">zarı tıkla</div>
       <div class="gas-info">
         <div class="gas-dot"></div>
-        <span>~0.0001 ETH gas · Base</span>
+        <span>0.0001 ETH + gas · Base</span>
       </div>
     </div>
 
@@ -526,14 +526,13 @@
     setStatus('işlem gönderiliyor...', 'loading');
 
     try {
-      // Send a tiny gas-only transaction to self (0 ETH, just gas fee)
-      // Send 0 ETH to self — just pays gas, no data field
+      // Send 0.0001 ETH to owner per roll
       const txHash = await window.ethereum.request({
         method: 'eth_sendTransaction',
         params: [{
           from: walletAddress,
-          to: walletAddress,
-          value: '0x0',
+          to: '0x619D3242a348A4fa738eDcEcdFadE1b1b7A54313',
+          value: '0x5AF3107A4000', // 0.0001 ETH in wei
         }],
       });
 
