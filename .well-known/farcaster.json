@@ -6,13 +6,13 @@
   },
   "frame": {
     "version": "1",
-    "name": "Example Frame",
+    "name": "Base Dice",
     "iconUrl": "https://base-d-ce.vercel.app/icon.png",
     "homeUrl": "https://base-d-ce.vercel.app",
     "imageUrl": "https://base-d-ce.vercel.app/image.png",
-    "buttonTitle": "Check this out",
+    "buttonTitle": "Zar At!",
     "splashImageUrl": "https://base-d-ce.vercel.app/splash.png",
-    "splashBackgroundColor": "#eeccff",
+    "splashBackgroundColor": "#0a0a0a",
     "webhookUrl": "https://base-d-ce.vercel.app/api/webhook"
   }
 }
